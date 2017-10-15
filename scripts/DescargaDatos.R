@@ -65,3 +65,13 @@ tdm <- TermDocumentMatrix(corpus)
 
 # convierte a una matriz
 m = as.matrix(tdm)
+
+#####################################################
+############ Exportación de df a fichero csv ########
+#####################################################
+
+write.csv(dm, 'dataframe.csv')
+
+
+
+######################################################
