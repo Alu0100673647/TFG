@@ -1,0 +1,13 @@
+name: SAYAS
+title: SAYAS
+username:
+account: alu0100673647
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 261455
+bundleId: 1229549
+url: https://alu0100673647.shinyapps.io/SAYAS/
+when: 1519029874.7424
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: p.r|pruebamsg.R|s.r

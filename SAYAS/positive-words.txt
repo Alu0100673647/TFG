@@ -1,0 +1,2042 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; 
+; Opinion Lexicon: Positive
+;
+; This file contains a list of POSITIVE opinion words (or sentiment words).
+;
+; This file and the papers can all be downloaded from 
+;    http://www.cs.uic.edu/~liub/FBS/sentiment-analysis.html
+;
+; If you use this list, please cite one of the following two papers:
+;
+;   Minqing Hu and Bing Liu. "Mining and Summarizing Customer Reviews." 
+;       Proceedings of the ACM SIGKDD International Conference on Knowledge 
+;       Discovery and Data Mining (KDD-2004), Aug 22-25, 2004, Seattle, 
+;       Washington, USA, 
+;   Bing Liu, Minqing Hu and Junsheng Cheng. "Opinion Observer: Analyzing 
+;       and Comparing Opinions on the Web." Proceedings of the 14th 
+;       International World Wide Web conference (WWW-2005), May 10-14, 
+;       2005, Chiba, Japan.
+;
+; Notes: 
+;    1. The appearance of an opinion word in a sentence does not necessarily  
+;       mean that the sentence expresses a positive or negative opinion. 
+;       See the paper below:
+;
+;       Bing Liu. "Sentiment Analysis and Subjectivity." An chapter in 
+;          Handbook of Natural Language Processing, Second Edition, 
+;          (editors: N. Indurkhya and F. J. Damerau), 2010.
+;
+;    2. You will notice many misspelled words in the list. They are not 
+;       mistakes. They are included as these misspelled words appear 
+;       frequently in social media content. 
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+a +
+abundar
+abunda
+abundancia
+abundante
+accesible
+accesible
+aclamación
+aclamado
+aclamación
+espaldarazo
+elogios
+cómodo
+acomodativo
+realizar
+consumado
+logro
+logros
+preciso
+precisamente
+realizable
+logro
+logros
+alcanzable
+perspicacia
+adaptable
+adaptado
+adecuado
+ajustable
+admirable
+admirablemente
+admiración
+admirar
+admirador
+admirativo
+admirativamente
+adorable
+adorar
+adorado
+adorador
+cariñoso
+adorando
+hábil
+hábilmente
+adular
+adulación
+adulador
+avanzado
+ventaja
+ventajoso
+ventajosamente
+ventajas
+aventurero
+aventurero
+abogado
+abogado
+defensores
+afabilidad
+afable
+afablemente
+afectación
+afecto
+cariñoso
+afinidad
+afirmar
+afirmación
+afirmativo
+afluencia
+afluente
+permitirse
+asequible
+asequible
+afordable
+ágil
+ágilmente
+agilidad
+agradable
+amabilidad
+agradablemente
+todo al rededor
+seductor
+seductoramente
+altruista
+de forma altruista
+asombro
+asombrado
+asombro
+asombra
+asombroso
+espantosamente
+ambicioso
+ambiciosamente
+mejorar
+dócil
+amenidad
+amabilidad
+amiabily
+amable
+amabilidad
+amistoso
+amistosamente
+amistad
+amplio
+ampliamente
+entretener
+divertido
+graciosamente
+ángel
+angelical
+apoteosis
+apelación
+atractivo
+aplaudir
+apreciable
+apreciar
+apreciado
+aprecia
+agradecido
+apreciativamente
+apropiado
+aprobación
+aprobar
+ardiente
+ardientemente
+ardor
+articular
+aspiración
+aspiraciones
+aspirar
+garantía
+garantías
+asegurar
+ciertamente
+asegurando
+asombrar
+asombrado
+asombroso
+asombrosamente
+asombro
+asombrar
+asombrado
+asombroso
+pasmosamente
+astutamente
+atento
+atracción
+atractivo
+atractivamente
+armonizar
+audible
+de modo audible
+propicio
+auténtico
+autoritario
+autónomo
+disponible
+afirmar
+ávido
+ávidamente
+premio
+galardonado
+premios
+temor
+asombrado
+increíble
+asombrosamente
+genialidad
+atemorizado
+impresionante
+columna vertebral
+equilibrado
+negociar
+hermoso
+hermosa
+beautifullly
+hermosamente
+embellecer
+belleza
+llamar
+atraído
+haciendo señas
+atrae
+creíble
+creíble
+amado
+benefactor
+benéfico
+beneficioso
+beneficiosamente
+beneficiario
+beneficio
+beneficios
+benevolencia
+benevolente
+Beneficios
+mejor
+más conocido
+mejor desempeño
+más vendido
+mejor
+mejor conocida
+mejor de lo esperado
+bondadosamente
+inocente
+bendecir
+bendición
+felicidad
+feliz
+felizmente
+alegre
+éxito de taquilla
+florecer
+flor
+reforzar
+hermoso
+prima
+bonificaciones
+auge
+en auge
+aumentar
+sin límites
+abundante
+más inteligente
+inteligente
+Para estrenar
+valiente
+valentía
+Bravo
+penetración
+avances
+dificultad para respirar
+asombroso
+impresionantemente
+brisa
+brillante
+aclarar
+más brillante
+más brillante
+brillantez
+brillantez
+brillante
+brillantemente
+enérgico
+fraternal
+alcista
+boyante
+engatusar
+calma
+calmante
+calma
+capacidad
+capaz
+dote
+cautivar
+cautivador
+despreocupado
+devolución de dinero
+devolución de dinero
+pegadizo
+celebrar
+celebrado
+celebracion
+celebratorio
+mordimiento
+campeón
+carisma
+carismático
+Caritativo
+encanto
+encantador
+encantadoramente
+casto
+más barato
+más barato
+animar
+alegre
+alegre
+apreciar
+querido
+querubín
+elegante
+caballerosidad
+caballería
+civilidad
+civilizar
+claridad
+clásico
+de buen tono
+limpiar
+limpiador
+más limpio
+limpieza
+limpiamente
+claro
+claro
+despejado
+más claro
+claramente
+despeja
+inteligente
+hábilmente
+adherirse
+coherencia
+coherente
+cohesivo
+vistoso
+gentil
+comodidad
+cómodo
+cómodamente
+consolador
+confortable
+elogiar
+recomendable
+encomiablemente
+compromiso
+grande
+compacto
+compacto
+compasión
+compasivo
+compatible
+competitivo
+complemento
+complementario
+complementado
+complementos
+obediente
+cumplido
+Complementario
+exhaustivo
+conciliar
+conciliador
+conciso
+confianza
+confidente
+agradable
+felicitar
+enhorabuena
+felicitaciones
+congratulatorio
+concienzudo
+considerado
+consistente
+consecuentemente
+constructivo
+consumar
+contentamiento
+continuidad
+contrastar
+contribución
+conveniencia
+conveniente
+convenientemente
+convience
+conveniente
+conveniente
+Convincente
+convincentemente
+guay
+más fresco
+cooperativa
+cooperativamente
+piedra angular
+correcto
+correctamente
+económico
+ahorro de costos
+contraataque
+contraataques
+valor
+valiente
+valientemente
+valentía
+cortés
+cortés
+pacto
+acogedor
+creativo
+crédito
+creíble
+crujiente
+cajón
+cura
+curar todo
+fácil
+linda
+monería
+Danke
+Danken
+atrevido
+atrevidamente
+querido
+apuesto
+intrépido
+amanecer
+deslumbrar
+deslumbrado
+deslumbrante
+muerto-barato
+muerto en
+decencia
+bueno
+decisivo
+decisividad
+dedicado
+derrota
+derrotado
+derrotando
+derrotas
+defensor
+deferencia
+hábil
+deginificado
+delicioso
+delicadeza
+delicado
+delicioso
+deleite
+Encantado
+encantador
+deliciosamente
+deleite
+confiable
+confiablemente
+merecidamente
+digno
+deseable
+deseando
+deseoso
+destino
+desmontable
+devoto
+diestro
+hábilmente
+diestro
+digno
+dignificar
+dignidad
+diligencia
+diligente
+diligentemente
+diplomático
+baratísimo
+distinción
+distintivo
+distinguido
+diversificado
+adivinar
+divinamente
+dominar
+dominado
+domina
+adorar
+con cariño
+indudable
+país de los sueños
+estupefacto
+desconcertante
+a prueba de simulacros
+durable
+dinámica
+ansioso
+ansiosamente
+afán
+serio
+formalmente
+seriedad
+facilitar
+aliviado
+eases
+más fácil
+más fácil
+facilidad
+relajar
+fácil
+fácil de usar
+de trato fácil
+entusiasmo
+exuberante
+eufóricamente
+ecenomical
+económico
+éxtasis
+éxtasis
+extático
+extáticamente
+edificar
+educado
+eficaz
+eficazmente
+eficacia
+eficaz
+eficaz
+eficiente
+eficientemente
+fácil
+sin esfuerzo
+efusión
+efusivo
+efusivamente
+efusividad
+vivacidad
+regocijado
+exaltado
+elatedly
+elación
+electrizar
+elegancia
+elegante
+esmeradamente
+elevar
+élite
+elocuencia
+elocuente
+elocuentemente
+envalentonar
+eminencia
+eminente
+empatizarse
+empatía
+autorizar
+empoderamiento
+encantar
+encantado
+encantador
+encantadoramente
+alentar
+ánimo
+alentador
+en todo alentador
+hacerse querer por
+entrañable
+endosar
+endosado
+aprobación
+respalda
+endosando
+energético
+energizar
+energía eficiente
+el ahorro de energía
+atractivo
+fascinante
+mejorar
+mejorado
+mejora
+mejora
+disfrutar
+agradable
+agradablemente
+disfrutado
+disfrutando
+disfrute
+disfruta
+iluminar
+ilustración
+animar
+ennoblecer
+suficiente
+enrapt
+extasiar
+extasiado
+enriquecer
+enriquecimiento
+emprendedor
+entretener
+entretenido
+entretiene
+cautivar
+cautivar
+cautivado
+entusiasmar
+entusiasmo
+entusiasta
+entusiasta
+con entusiasmo
+atraer
+seducido
+tentador
+tentadoramente
+en trance
+fascinante
+confiar
+envidiable
+envidiablemente
+envidioso
+envidiosamente
+envidia
+envidia
+equitativo
+ergonómico
+libre de errores
+erudito
+ético
+elogiar
+euforia
+eufórico
+eufóricamente
+evaluativo
+igualmente
+memorable
+eterno
+evocador
+exaltar
+exaltación
+exaltado
+exaltado
+exaltando
+exaltando
+ejemplo
+ejemplar
+excallent
+exceder
+excedido
+excesivo
+extremadamente
+excede
+sobresalir
+sobresalido
+excelente
+excelente
+sobresalió
+excelencia
+excelencia
+excelente
+excelentemente
+sobresale
+excepcional
+excepcionalmente
+excitar
+emocionado
+con entusiasmo
+excitación
+emoción
+excita
+emocionante
+emocionante
+excelente
+ejemplar
+ejemplar
+regocijar
+estimulante
+estimulante
+regocijo
+exonerar
+expansivo
+expeditivamente
+expertamente
+Exquisito
+exquisitamente
+ensalzar
+ensalzar
+extraordinariamente
+extraordinario
+exuberancia
+exuberante
+exuberantemente
+exultar
+jubiloso
+exultación
+exultante
+captura de ojo
+llamativo
+captura de ojo
+llamativo
+fabuloso
+fabulosamente
+facilitar
+justa
+bastante
+justicia
+fe
+fiel
+fielmente
+fidelidad
+fama
+famoso
+famoso
+famosamente
+criador
+fantastico
+lujoso
+trompeteo
+aficionados
+fantástico
+fantásticamente
+fascinar
+fascinante
+fascinantemente
+fascinación
+de moda
+a la moda
+rápido
+rápido crecimiento
+rápido
+Más rápido
+lo más rápido
+crecimiento más rápido
+impecable
+fav
+fave
+favor
+favorable
+favorecido
+favorito
+favorecido
+favor
+audaz
+sin miedo
+factible
+factiblemente
+hazaña
+rico en características
+fecil
+luchadora
+felicitar
+feliz
+felicidad
+fértil
+ferviente
+fervorosamente
+fervoroso
+fervientemente
+fervor
+festivo
+fidelidad
+ardiente
+multa
+bien parecido
+finamente
+más fino
+mejor
+más firme
+primera clase
+el primero de la clase
+de primer nivel
+ostentoso
+halagar
+halagüeño
+halagadoramente
+perfecto
+sin problemas
+flexibilidad
+flexible
+florecer
+floreciente
+fluido
+aleteo
+aficionado
+afectuosamente
+cariño
+infalible
+principal
+previsión
+formidable
+fortaleza
+fortuito
+fortuitamente
+afortunado
+por suerte
+fortuna
+fragante
+gratis
+liberado
+libertad
+libertades
+Fresco
+novato
+lo más fresco
+amabilidad
+amistoso
+fiesta
+frugal
+fructífero
+ftw
+cumplimiento
+divertido
+futurestic
+futurista
+alegría
+alegremente
+ganancia
+ganado
+retribuido
+con ganancia
+ganando
+ganancias
+galante
+gallardamente
+en abundancia
+geekier
+geek
+joya
+gemas
+generosidad
+generoso
+generosamente
+genial
+genio
+amable
+más suave
+auténtico
+dotado
+alegre
+alegrar
+con alegría
+alegría
+atractivo
+alegría
+jubiloso
+alegremente
+luz tenue
+resplandeciente
+relucir
+brillante
+resplandecer
+glitz
+glorificar
+glorioso
+gloriosamente
+gloria
+brillo
+brillante
+brillantemente
+dado por Dios
+bendición
+divino
+bendición
+oro
+dorado
+bueno
+hermoso
+bondad
+buena voluntad
+goood
+gooood
+maravilloso
+magníficamente
+gracia
+agraciado
+graciosamente
+Cortés
+graciosamente
+gracia
+grandioso
+grandeza
+agradecido
+con agradecimiento
+gratificación
+gratificado
+gratifica
+satisfacer
+gratificante
+gratificante
+gratitud
+estupendo
+mejor
+grandeza
+mueca
+innovador
+garantía
+dirección
+inocente
+listeza
+chorro
+entusiasmo
+gutsy
+granizo
+martín pescador
+sano
+contraste
+sellos distintivos
+santificado
+más práctico
+cómodamente
+manos abajo
+hermoso
+generosamente
+práctico
+más feliz
+felizmente
+felicidad
+contento
+trabajo duro
+más resistente
+resistente
+inofensivo
+armonioso
+armoniosamente
+armonizar
+armonía
+progreso
+sanar
+sano
+saludable
+animar
+alentador
+sentido
+sinceramente
+reconfortante
+cielo
+celestial
+ayudado
+servicial
+ración
+héroe
+heroico
+heroicamente
+heroína
+heroizar
+héroes
+alta calidad
+animado
+divertidísimo
+santo
+homenaje
+honesto
+honestidad
+honor
+honorable
+honrado
+honrando
+hooray
+esperanzado
+hospitalario
+caliente
+pastel caliente
+panqueques
+más caliente
+abrazo
+humano
+humilde
+humildad
+humor
+humorístico
+humorísticamente
+humor
+chistoso
+ideal
+idealizar
+idealmente
+ídolo
+idolatrar
+idolatrado
+idílico
+iluminar
+illuminati
+esclarecedor
+iluminar
+ilustre
+ilu
+imaculate
+imaginativo
+inmaculado
+Inmaculadamente
+inmenso
+imparcial
+imparcialidad
+imparcialmente
+apasionado
+impecable
+intachablemente
+importante
+impresionar
+impresionado
+impresiona
+impresionante
+impresionantemente
+impresionanteidad
+mejorar
+mejorado
+mejora
+mejoras
+mejora
+mejorando
+increíble
+increíblemente
+endeudado
+individualizado
+indulgencia
+indulgente
+industrioso
+inestimable
+inestimablemente
+barato
+infalibilidad
+infalible
+infaliblemente
+influyente
+ingenioso
+ingeniosamente
+ingenio
+ingenuo
+ingenuamente
+inocuo
+innovación
+innovador
+Inpressed
+perspicaz
+perspicaz
+inspiración
+inspirador
+inspirar
+inspirador
+instantáneamente
+instructivo
+instrumental
+integral
+integrado
+inteligencia
+inteligente
+inteligible
+interesante
+intereses
+intimidad
+íntimo
+intrincado
+intriga
+intrigante
+intrigante
+intuitivo
+inestimable
+invaluable
+inventivo
+vigorizar
+vigorizante
+invencibilidad
+invencible
+inviolable
+inviolado
+invulnerable
+insustituible
+irreprochable
+irresistible
+irresistiblemente
+libre de problemas
+dejar boquiabierto
+dejar boquiabierto
+Jollify
+alegre
+jovial
+alegría
+alegre
+alegremente
+jubiloso
+alegremente
+jubiloso
+jubilosamente
+jubilar
+jubilación
+jubiloso
+juicioso
+justamente
+afilado
+de modo penetrante
+agudeza
+amigable para niños
+bondad
+amablemente
+amabilidad
+experto
+prestigio
+gran capacidad
+alabar
+loable
+loablemente
+prodigar
+lujosamente
+respetuoso de la ley
+legal
+legalmente
+dirigir
+líder
+conduce
+apoyarse
+LED
+legendario
+apalancamiento
+ligereza
+liberar
+liberación
+libertad
+salvador de la vida
+alegre
+encendedor
+agradable
+me gusta
+gustó
+gustos
+gusto
+Leonor
+animado
+lógico
+duradero
+amable
+adorablemente
+amor
+amado
+hermosura
+encantador
+amante
+ama
+amoroso
+bajo costo
+bajo precio
+bajo precio
+riesgo bajo
+precio más bajo
+leal
+lealtad
+lúcido
+lúcidamente
+suerte
+más afortunado
+más afortunado
+suerte
+suerte
+lucrativo
+luminoso
+lozano
+lustre
+lustroso
+exuberante
+deleitarse
+lujoso
+lujosamente
+lujo
+lírico
+magia
+mágico
+magnánimo
+magnánimamente
+magnificencia
+magnífico
+magníficamente
+majestuoso
+majestad
+manejable
+maniobrable
+maravilla
+maravillado
+maravillado
+maravilloso
+maravilloso
+maravillosamente
+maravilla
+maravillas
+dominar
+maestro
+magistralmente
+obra maestra
+obras maestras
+maestros
+maestría
+incomparable
+maduro
+maduramente
+madurez
+significativo
+memorable
+misericordioso
+piadosamente
+misericordia
+mérito
+meritorio
+alegremente
+alegría
+alegría
+alegre
+hipnotizar
+hipnotizado
+hipnotiza
+hipnotizante
+hipnotizantemente
+meticuloso
+meticulosamente
+poderosamente
+poderoso
+alucinante
+milagro
+milagros
+milagroso
+milagrosamente
+milagro
+moderno
+modesto
+modestia
+trascendental
+monumental
+monumentalmente
+moralidad
+motivado
+de múltiples fines
+navegable
+ordenado
+lo mejor
+pulcramente
+bonito
+bien
+mejor
+mejor
+hábil
+ágil
+noble
+noble
+silencioso
+no violencia
+no violento
+notablemente
+notable
+nutrir
+nutritivo
+alimento
+novedad
+nutriendo
+oasis
+obsesión
+obsesiones
+asequible
+abiertamente
+franqueza
+óptimo
+optimismo
+optimista
+opulento
+ordenado
+originalidad
+exceder
+superado
+superar
+superado
+superando
+supera
+eclipsar
+eclipsar
+burlar
+excepcional
+sobresalientemente
+superar
+burlar
+ovación
+lleno de alegría
+adelantar
+adelantados
+adelanta
+adelantamiento
+adelantó
+obertura
+sin dolor
+sin dolor
+sin dolor
+palaciego
+mimar
+mimado
+mimado
+mimo
+mima
+panorámico
+paraíso
+supremo
+perdón
+pasión
+apasionado
+apasionadamente
+paciencia
+paciente
+pacientemente
+patriota
+patriótico
+paz
+pacífico
+pacífico
+pacíficamente
+fuerzas de paz
+melocotón
+sin par
+energía
+pepped
+pepeando
+lleno de vida
+peps
+Perfecto
+perfección
+perfectamente
+permisible
+perseverancia
+perseverar
+personajes
+personalizado
+fenomenal
+fenomenalmente
+pintoresco
+piedad
+pináculo
+juguetón
+en broma
+agradable
+agradablemente
+satisfecho
+complace
+agradable
+agradablemente
+agradable
+agradablemente
+Placer
+abundante
+ventajas
+felpa
+ventajas
+poético
+poetizar
+conmovedor
+equilibrio
+listo
+pulido
+Cortés
+cortesía
+popular
+portátil
+elegante
+positivo
+afirmativamente
+positivos
+poderoso
+poderosamente
+alabanza
+loable
+alabando
+preeminente
+precioso
+preciso
+precisamente
+preeminente
+preferir
+preferible
+preferiblemente
+preferido
+privilegiado
+preferidos
+prefiriendo
+prefiere
+primer ministro
+prestigio
+prestigioso
+bien
+bonita
+no tiene precio
+orgullo
+de principios
+privilegio
+privilegiado
+premio
+proactivo
+sin problemas
+solucionador de problemas
+prodigioso
+prodigiosamente
+prodigio
+productivo
+productivamente
+competente
+hábilmente
+profundo
+profundamente
+profuso
+profusión
+Progreso
+progresivo
+prolífico
+prominencia
+prominente
+promesa
+prometido
+promesas
+prometedor
+promotor
+rápido
+prontamente
+apropiado
+correctamente
+propicio
+propicio
+pros
+prosperar
+prosperidad
+próspero
+prospros
+proteger
+proteccion
+protector
+orgulloso
+probado
+demuestra
+providencia
+prueba
+valor
+prudencia
+prudente
+con prudencia
+puntual
+puro
+purificar
+útil
+pintoresco
+calificado
+calificar
+más rápido
+tranquilo
+más tranquilo
+resplandor
+radiante
+rápido
+compenetración
+arrebatado
+rapto
+rapto
+rapidamente
+extático
+con entusiasmo
+racional
+afilado como una navaja
+accesible
+legible
+fácilmente
+Listo
+reafirmar
+reafirmación
+realista
+realizable
+razonable
+razonablemente
+razonado
+seguridades
+tranquilizar
+receptivo
+reclamar
+recomendar
+recomendar
+recomendación
+recomendaciones
+recomendado
+conciliar
+reconciliación
+récord
+recuperar
+recuperación
+rectificación
+rectificar
+rectificando
+redimir
+redentor
+redención
+refinar
+refinado
+refinamiento
+reforma
+reformado
+reformando
+reformas
+refrescar
+refrescado
+refrescante
+reembolso
+reintegrado
+real
+regiamente
+considerar
+alegrarse
+alegría
+con alegría
+rejuvenecer
+rejuvenecido
+rejuvenecedor
+relajado
+ceder
+de confianza
+seguramente
+alivio
+saborear
+notable
+notablemente
+remedio
+remisión
+remunerar
+Renacimiento
+renovado
+renombre
+renombrado
+reemplazable
+acreditado
+reputación
+elástico
+resuelto
+resonar
+resonante
+ingenioso
+inventiva
+el respeto
+respetable
+respetuoso
+respetuosamente
+respiro
+resplandeciente
+responsablemente
+sensible
+sosegado
+restaurado
+reestructurar
+reestructurado
+reestructuración
+retractable
+jaranear
+revelación
+reverenciar
+reverencia
+reverente
+reverentemente
+revitalizar
+renacimiento
+reanimar
+revive
+revolucionario
+revolucionar
+revolucionado
+revoluciona
+recompensa
+gratificante
+recompensando
+Rico
+más rico
+ricamente
+riqueza
+derecho
+enderezar
+justo
+justamente
+justicia
+legítimo
+legítimamente
+correctamente
+justicia
+Sin riesgo
+robusto
+estrella de rock
+estrellas de rock
+estrella de rock
+estrellas de rock
+romántico
+románticamente
+romantizar
+más espacioso
+espacioso
+rosado
+seguro
+sin peligro
+sagacidad
+sabiamente
+Smo
+santidad
+santo
+saludable
+saludo
+cuerdo
+satisfactoriamente
+satisfactorio
+satisfecho
+satisface
+satisfacer
+satisfactorio
+satisfecho
+ahorrador
+ahorros
+salvador
+comprensión
+escénico
+sin costura
+sazonado
+seguro
+de forma segura
+selectivo
+autodeterminación
+respeto a ti mismo
+auto satisfacción
+autosuficiencia
+autosuficiente
+sensación
+sensacional
+sensacionalmente
+sensaciones
+sensato
+sesudamente
+sensible
+sereno
+serenidad
+sexy
+agudo
+estafador
+más agudo
+reluciente
+reluciente
+brillar
+brillante
+significativo
+silencio
+más simple
+más simple
+simplificado
+simplifica
+simplificar
+simplificando
+sincero
+sinceramente
+sinceridad
+habilidad
+experto
+hábil
+hábilmente
+slammin
+pulcro
+mancha
+inteligente
+más inteligente
+más inteligente
+inteligentemente
+sonreír
+sonrisas
+sonriente
+sonriendo
+herido
+suave
+más suave
+suaviza
+más suave
+suavemente
+rápido
+elegante
+sociable
+suave
+más suave
+consuelo
+solícito
+solícito
+sólido
+solidaridad
+calmar
+Suavemente
+sofisticado
+conmovedor
+sólidamente
+solvencia
+espacioso
+brillar
+espumoso
+espectacular
+espectacularmente
+rápidamente
+rápido
+spellbind
+fascinante
+fascinante
+hechizado
+enérgico
+espiritual
+espléndido
+espléndidamente
+esplendor
+espontáneo
+deportivo
+inmaculado
+animado
+estabilidad
+estabilizar
+estable
+inoxidable
+destacar
+lo último
+majestuoso
+estatuario
+firme
+incondicionalmente
+firmeza
+firme
+firmemente
+constancia
+más estable
+firmeza
+estable
+estelar
+estelarmente
+estimular
+estimula
+estimulante
+estimulante
+con agitación
+enderezar
+sencillo
+optimizado
+sorprendentes
+sorprendentemente
+esforzarse
+fuerte
+más fuerte
+más fuerte
+aturdido
+maravilloso
+sensacionalmente
+estupendo
+estupendamente
+más robusto
+robusto
+elegante
+elegantemente
+estilizado
+afable
+Suavemente
+sublime
+subvencionar
+subvencionado
+subsidia
+subsidiando
+sustantivo
+tener éxito
+tenido éxito
+subsiguiente
+tiene éxito
+éxito
+éxito
+éxitos
+exitoso
+exitosamente
+satisfacer
+basta
+basta
+suficiente
+suficientemente
+adecuado
+suntuoso
+suntuosamente
+suntuosidad
+súper
+magnífico
+magníficamente
+superior
+superioridad
+flexible
+apoyo
+soportado
+seguidor
+secundario
+apoyo
+apoyos
+supremacía
+supremo
+supremamente
+extravagante
+supuestamente
+superar a
+superar
+surrealista
+supervivencia
+sobreviviente
+sostenibilidad
+sostenible
+presumir
+swankier
+swankiest
+ostentoso
+barrido
+dulce
+endulzar
+novio
+dulcemente
+dulzura
+rápido
+rapidez
+talento
+talentoso
+prendas
+atormentar
+tentador
+tentadoramente
+tentar
+tentador
+tentadoramente
+tenaz
+con tenacidad
+tenacidad
+oferta
+tiernamente
+estupendo
+terriblemente
+gracias
+agradecido
+más delgada
+pensativo
+pensativamente
+consideración
+ahorro
+ahorrativo
+emoción
+emocionado
+emocionante
+emocionantemente
+emoción
+prosperar
+próspero
+pulgar arriba
+Pulgares hacia arriba
+cosquillas
+ordenado
+consagrado
+oportuno
+hormigueo
+excitar
+excitante
+excitantemente
+compañerismo
+tolerable
+sin costo
+parte superior
+de primera categoría
+de alta calidad
+de primera categoría
+tops
+difícil
+más duro
+el más duro
+tracción
+tranquilo
+tranquilidad
+transparente
+tesoro
+tremendamente
+de moda
+triunfo
+triunfal
+triunfante
+triunfantemente
+trivialmente
+trofeo
+sin problemas
+triunfo
+trompeta
+confianza
+confiable
+confiando
+con confianza
+integridad
+confiable
+fiel
+veraz
+sinceramente
+veracidad
+twinkly
+ultra-crujiente
+desvergonzado
+sin vergüenza
+inafectado
+inexpugnable
+imbatible
+imparcial
+sin consolidar
+sin complicaciones
+incondicional
+sin daños
+impávido
+comprensible
+indiscutible
+indiscutiblemente
+indiscutible
+sin cargas
+inequívoco
+inequívocamente
+sin inmutarse
+sin restricciones
+inolvidable
+unidad
+ilimitado
+sin par
+incomparable
+incuestionable
+incuestionablemente
+irreal
+irrestricto
+sin rivalidad
+altruista
+inquebrantable
+optimista
+actualizable
+actualizable
+actualizado
+mantenido
+defender
+edificación
+edificante
+elevadoramente
+levantamiento
+exclusivo
+usable
+utilizable
+útil
+fácil de usar
+reemplazable por el usuario
+valiente
+valientemente
+valor
+valioso
+variedad
+venerar
+verifiable
+verdadero
+versátil
+versatilidad
+vibrante
+vibrantemente
+victorioso
+victoria
+visible
+vigilancia
+vigilante
+virtud
+virtuoso
+virtuosamente
+visionario
+vivaz
+vívido
+atestiguar
+conceder
+calentar
+más cálido
+cariñoso
+calurosamente
+calor
+rico
+Bienvenido
+bien
+bien iluminado
+bien equilibrado
+bien educado
+bienestar
+bien criado
+bien conectado
+bien educado
+bien establecido
+bien informado
+bien intencionado
+bien conocido
+bien hecho
+bien gestionado
+bien educado
+bien posicionado
+bien recibido
+bien considerado
+bien redondeado
+bien administrado
+bienintencionados
+bienestar
+Whoa
+con entusiasmo
+saludable
+Whooa
+whoooa
+manejable
+complaciente
+de buena gana
+complacencia
+ganar
+ganancia inesperada
+ganable
+ganador
+ganadores
+victorioso
+gana
+sabiduría
+sabio
+sabiamente
+ingenioso
+won
+preguntarse
+maravilloso
+maravillosamente
+maravilloso
+maravillosamente
+maravillas
+maravilloso
+cortejar
+trabajo
+factible
+trabajó
+trabajos
+mundialmente famoso
+valor
+vale la pena
+dignidad
+vale la pena
+digno
+Guau
+cautivado
+wowing
+wow
+Hurra
+juvenil
+celo
+cenit
+ánimo
+enérgico

@@ -1,30 +1,4 @@
-# Cargar libreria de TwitterR
-
-library("twitteR");
-library("tm");
-library("RTextTools");
-library("SnowballC");
-library("e1071");
-library("randomForest");
-library("stringi");
-library("reader");
-
-
-# Leer fichero credenciales
-# cuando ejecutamos el PIN lo teniamos qu poner en consola para   q crear el ficher myoauth
-
-source('credenciales.R')
-
-# Función para buscar #hastags, @users, words
-
-tweets <- searchTwitter("Canarias", n=10, lang="es",since="2017-06-01")
-
-# vuelca la informacion de los tweets a un data frame
-
-df = twListToDF(tweets)
-
 # obtiene el texto de los tweets
-
 txt = df$text
 
 ##### inicio limpieza de datos #####
@@ -32,9 +6,9 @@ txt = df$text
 txtclean = gsub("(RT|via)((?:\\b\\W*@\\w+)+)", "", txt)
 # remove @otragente
 txtclean = gsub("@\\w+", "", txtclean)
-# remueve simbolos de puntuación
+# remueve simbolos de puntuaci?n
 txtclean = gsub("[[:punct:]]", "", txtclean)
-# remove números
+# remove n?meros
 txtclean = gsub("[[:digit:]]", "", txtclean)
 # remueve links
 txtclean = gsub("http\\w+", "", txtclean)
@@ -44,34 +18,40 @@ txtclean = gsub("http\\w+", "", txtclean)
 # construye un corpus
 corpus = Corpus(VectorSource(txtclean))
 
-# convierte a minúsculas
+# convierte a min?sculas
 corpus = tm_map(corpus, tolower)
 
-# remueve palabras vacías (stopwords) en español
+# remueve palabras vac?as (stopwords) en espa?ol
 corpus <- tm_map(corpus,removeWords,stopwords("spanish"))
 
-# carga archivo de palabras vacías personalizada y lo convierte a ASCII
+# carga archivo de palabras vac?as personalizada y lo convierte a ASCII
 sw <- readLines("spanish.txt",encoding="UTF-8")
 sw = iconv(sw, to="ASCII//TRANSLIT")
 
-# remueve palabras vacías personalizada
+# remueve palabras vac?as personalizada
 corpus = tm_map(corpus, removeWords, sw)
 
 # remove espacios en blanco extras
 corpus = tm_map(corpus, stripWhitespace)
 
-# crea una matriz de términos
+# crea una matriz de t?rminos
 tdm <- TermDocumentMatrix(corpus)
 
 # convierte a una matriz
 m = as.matrix(tdm)
 
+# conteo de palabras en orden decreciente
+wf <- sort(rowSums(m),decreasing=TRUE)
+
+# crea un data frame con las palabras y sus frecuencias
+dm <- data.frame(word = names(wf), freq=wf)
+
 #####################################################
-############ Exportación de df a fichero csv ########
+############ Exportaci?n de df a fichero csv ########
 #####################################################
 
 write.csv(dm, 'dataframe.csv')
 
-
-
 ######################################################
+
+
