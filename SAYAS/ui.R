@@ -28,17 +28,18 @@ shinyUI(fluidPage(theme = shinytheme("cerulean"),
   ),
  
   
-  headerPanel("SAyAS (Sistema de Alerta y AnÃ¡lisis de Sentimientos)"),
+  headerPanel("SAyAS (Sistema de Alerta y AnÃÂ¡lisis de Sentimientos)"),
   
   
   sidebarLayout(
     sidebarPanel(
-      textInput("busqueda", label = "BÃºsqueda:", value = "#nieve"),
-      numericInput("obs", "NÃºmero de tweets:", 5, min = 3, max = 20),
-      submitButton("Buscar"), 
-      actionButton("alerta","Recibir Alerta"),
-      actionButton("remail","Recibir e-mail")
-      
+      textInput("busqueda", label = "BÃÂºsqueda:", value = "#nieve"),
+      numericInput("obs", "NÃÂºmero de tweets:", 5, min = 3, max = 20),
+      submitButton("Buscar"),
+    #textInput("Twitter", label = "Usuario:", value = "@User"),
+    #  actionButton("alerta","Recibir Alerta"),
+      textInput("gmail", label = "Gmail:", value = "example@gmail.com"),
+      submitButton("email")
   ),
   
   

@@ -38,24 +38,40 @@ shinyServer(function(input, output) {
   
   # Obteniendo los tweets de twitter ************************************************************
   dataInput <- reactive({
+    
+   if(input$gmail != "example@gmail.com") {
+      
+      recipient = "Recipient 1 ";
+      i = "<";
+      d = ">";
+      r = paste(i,input$gmail,d,sep = "",collapse = NULL);
+      para =  paste(recipient,r, sep = "", collapse = NULL);
+      # #   
+      
+      
+      send.mail(from = "alu0100673647@ull.edu.es",
+                to = c(para),
+                subject = "alerta SAyAS3",
+                body = "alerta sobre busqueda en la app https://alu0100673647.shinyapps.io/SAYAS/ ",
+                smtp = list(host.name = "aspmx.l.google.com.", port = 25),
+                authenticate = FALSE,
+                send = TRUE)
+    }
     # obtenemos un data frame
    
     tweets <- searchTwitter(input$busqueda, n = 100, lang="es", 
                             geocode = "28.5,-16.5,10000km")
 
     tweets.df <- twListToDF(tweets)
-   # no_retweets.df = strip_retweets(tweets)
    
     tweets.df$created <- as.character(tweets.df$created)
     colnames(tweets.df)[which(names(tweets.df) == "text")] <- "Tweet"
     colnames(tweets.df)[which(names(tweets.df) == "screenName")] <- "User"
    # colnames(tweets.df)[which(names(tweets.df) == "created")] <- "Created"
     tweets.df
-    
-    #no_retweets.df$created <- as.character(no_retweets.df$created)
-    #colnames(no_retweets.df) <- "retweet"
-    #no_retweets.df
-    
+  
+   
+   
   })
   # Crea la tabla con los tweets ****************************************************************
   output$table <- renderTable({
@@ -135,9 +151,6 @@ shinyServer(function(input, output) {
     return(by.tweet)
   })
   
-
-  
-
   
   output$graphic2 <- renderPlot({
     data <- analysis()
@@ -148,26 +161,36 @@ shinyServer(function(input, output) {
      theme_hc() +
      scale_colour_hc()
   }) 
-  ####################################################################
+  
+####################################################################
 ################### Envio de notificaciones ########################
 ####################################################################
+#  output$gmail <- renderText({input$gmail})
+#  
+# #   correo = "<cplb2009@gmail.com>";
+#    emisor = "Recipient 1 ";
+#   i = "<";
+#   d = ">";
+#   r = paste(i,input$gmail,d,sep = "",collapse = NULL);
+#    envio =  paste(emisor,r, sep = "", collapse = NULL);
+# #   
+# d = output$gmail
+ #print(envio)
   
- #source('C:/Users/a674094/Documents/R/win-library/3.4/rmfNotifier-master/data/credenciales.r')
-  #library(`rmfNotifier-master`);
-  #library('rmfNotifier')
-  #jobNotify("Probando desde la app : https://alu0100673647.shinyapps.io/SAYAS/ ")
+     # send.mail(from = "alu0100673647@ull.edu.es",
+     #            to = c(envio),
+     #                   subject = "alerta SAyAS3",
+     #                   body = "alerta sobre busqueda en la app https://alu0100673647.shinyapps.io/SAYAS/ ",
+     #                   smtp = list(host.name = "aspmx.l.google.com.", port = 25),
+     #                   authenticate = FALSE,
+     #                   send = TRUE)
 
-  #library(mygmailR)
-  #send_text("subject here", "body of message here")
-  send.mail(from = "alu0100673647@ull.edu.es",
-             to = c("Recipient 1 <yasmiroxas19@gmail.com>"),
-                    subject = "alerta SAyAS",
-                    body = "alerta sobre busqueda en la app https://alu0100673647.shinyapps.io/SAYAS/ ",
-                    smtp = list(host.name = "aspmx.l.google.com.", port = 25),
-                    authenticate = FALSE,
-                    send = TRUE)
+
    
-   
+    
+
+ 
+
 
   })
 
