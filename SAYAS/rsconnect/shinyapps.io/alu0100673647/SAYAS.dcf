@@ -5,9 +5,9 @@ account: alu0100673647
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 261455
-bundleId: 1242617
+bundleId: 1242647
 url: https://alu0100673647.shinyapps.io/SAYAS/
-when: 1519740752.3984
+when: 1519741784.4414
 asMultiple: FALSE
 asStatic: FALSE
-ignoredFiles: #lluvia _opin.csv|#lluvia _scores.csv|#lluvia _stack.csv|#nieve _opin.csv|#nieve _scores.csv|#nieve _stack.csv|p.r|pruebamsg.R|pruebanota.r
+ignoredFiles: #nieve _opin.csv|#nieve _scores.csv|#nieve _stack.csv

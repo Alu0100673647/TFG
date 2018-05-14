@@ -62,6 +62,9 @@ shinyServer(function(input, output) {
     tweets <- searchTwitter(input$busqueda, n = 100, lang="es", 
                             geocode = "28.5,-16.5,10000km")
 
+    if(length(tweets)== 0)
+      output$table <- renderText("No existen resultados")
+    
     tweets.df <- twListToDF(tweets)
    
     tweets.df$created <- as.character(tweets.df$created)
