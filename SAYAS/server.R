@@ -20,7 +20,7 @@ library("shiny");
 library("plyr"); # proporciona herramientas para aplicar operaciones a los datos
 library("dplyr");
 library("stringr"); # facilita las operaciones con cadenas
-library("ggplot2"); # grÃ¡ficos
+library("ggplot2"); # graficos
 library("RJSONIO");
 library("RCurl");
 library("bitops");
