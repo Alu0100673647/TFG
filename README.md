@@ -1,5 +1,6 @@
 # Trabajo de Fin de Grado SAyAS
 
-## Integración de Sistemas de alerta y de Análisis de Sentimientos en el ámbito del turismo
+
+## Título del Proyecto: Integración de sistemas para el  análisis de redes sociales utilizando procesamiento de lenguaje natural
 
 Enlace a la aplicación: https://alu0100673647.shinyapps.io/SAYAS/
