@@ -33,8 +33,8 @@ shinyUI(fluidPage(theme = shinytheme("cerulean"),
   
   sidebarLayout(
     sidebarPanel(
-      textInput("busqueda", label = "Búsqueda:", value = "#nieve"),
-      numericInput("obs", "Número de tweets:", 5, min = 3, max = 20),
+      textInput("busqueda", label = "Búsqueda:", value = "#rajoy"),
+      numericInput("obs", "Número de tweets:", 15, min = 3, max = 20),
       submitButton("Buscar"),
     #textInput("Twitter", label = "Usuario:", value = "@User"),
     #  actionButton("alerta","Recibir Alerta"),

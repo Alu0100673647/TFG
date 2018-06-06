@@ -1,0 +1,13 @@
+select s.r_percapita,s.ih
+(select k.tot_sal/j.DNIS r_percapita, j.ih
+from 
+   (select sum(i.sal) tot_sal, h.ih 
+   from hogares h, ingresos i 
+   where h.dni = i.dni 
+   group by h.ih, ih) k 
+   (select count(H2.DNI) DNIS, H2.ih
+   form hogares H2
+   group by h2.ih) J
+where k.ih=j.ih
+order by k.tot_sal/j.DNIS desc) S
+wheree rownum=1
