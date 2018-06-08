@@ -1,4 +1,4 @@
- # Carga de las librer?as siguientes:
+# Carga de las librer?as siguientes:
 
 library("ROAuth"); # para autenticaci?n OAuth
 library("base64enc"); # provee herramientas con base64 para ASCII
