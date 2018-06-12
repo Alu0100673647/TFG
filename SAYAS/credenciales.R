@@ -1,11 +1,15 @@
-# Carga de las librer?as siguientes:
+###############################################
+# Autor: Constanza Polette Leon Baritussio    #
+###############################################
+
+#Carga de las librerias siguientes:
 
 library("ROAuth"); # para autenticaci?n OAuth
 library("base64enc"); # provee herramientas con base64 para ASCII
 library("twitteR"); # libreria de twitter para R
 library("streamR"); # Provee funciones en R para usuarios con acceso a twitter.
 
-# Cargar par?metros de configuraci?n
+# Cargar parametros de configuracion
 
 reqURL <- "https://api.twitter.com/oauth/request_token"
 accessURL <- "https://api.twitter.com/oauth/access_token"

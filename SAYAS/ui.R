@@ -36,6 +36,8 @@ shinyUI(fluidPage(theme = shinytheme("cerulean"),
       textInput("busqueda", label = "Búsqueda:", value = "#rajoy"),
       numericInput("obs", "Número de tweets:", 15, min = 3, max = 20),
       submitButton("Buscar"),
+      actionButton("en","EN"),
+      
     #textInput("Twitter", label = "Usuario:", value = "@User"),
     #  actionButton("alerta","Recibir Alerta"),
       textInput("gmail", label = "Gmail:", value = "example@gmail.com"),

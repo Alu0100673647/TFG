@@ -5,6 +5,7 @@
 # Find out more about building applications with Shiny here:
 # 
 #    http://shiny.rstudio.com/
+# Autor: Constanza Polette León Baritussio
 #
 # Cargar libreria de TwitterR
 
@@ -56,9 +57,10 @@ shinyServer(function(input, output) {
                 smtp = list(host.name = "aspmx.l.google.com.", port = 25),
                 authenticate = FALSE,
                 send = TRUE)
-    }
-    # obtenemos un data frame
+   }
    
+   
+    # obtenemos un data frame
     tweets <- searchTwitter(input$busqueda, n = 100, lang="es", 
                             geocode = "28.5,-16.5,10000km")
 
@@ -66,24 +68,13 @@ shinyServer(function(input, output) {
       output$table <- renderText("No existen resultados")
     
     tweets.df <- twListToDF(tweets)
-   
     tweets.df$created <- as.character(tweets.df$created)
     colnames(tweets.df)[which(names(tweets.df) == "text")] <- "Tweet"
     colnames(tweets.df)[which(names(tweets.df) == "screenName")] <- "User"
-   # colnames(tweets.df)[which(names(tweets.df) == "created")] <- "Created"
     tweets.df
-  
-   
-   
   })
-  # Crea la tabla con los tweets ****************************************************************
-  output$table <- renderTable({
-    head(dataInput()[, c("Tweet","User")], n = input$obs)
-  })
-  output$value <- renderPrint({ output$table })
-  
+
   analysis <- reactive({
-  
     tweets <- searchTwitter(input$busqueda, n = 100, lang="es", 
                             geocode = "28.5,-16.5,10000km")
     tweets.df <- twListToDF(tweets)
@@ -91,28 +82,35 @@ shinyServer(function(input, output) {
     
     if (file.exists(paste(input$busqueda, '_stack.csv')) == FALSE) 
       write.csv(tweets.df, file = paste(input$busqueda, '_stack.csv'), row.names = F)
+    
     # Unimos el ultimo acceso con el fichero acumulativo y eliminamos duplicados
+    
     stack <- read.csv(file = paste(input$busqueda, '_stack.csv'))
     stack <- rbind(stack, tweets.df)
     stack <- subset(stack, !duplicated(stack$text))
     write.csv(stack, file = paste(input$busqueda, '_stack.csv'), row.names = F)
-    # AnÃ¡lisis de sentimiento *********************************************************************
+    
+    # Analisis de sentimiento 
+    
     scoreSentiment <- function(sentences, pos.words, neg.words, .progress='none') {
       scores <- laply(sentences, function(sentence, pos.words, neg.words) {
         # remueve links
-       sentence <- gsub('http\\w+', '', sentence)
+        sentence <- gsub('http\\w+', '', sentence)
         sentence <- gsub('[[:punct:]]', '', sentence)
         sentence <- gsub('[[:cntrl:]]', '', sentence)
         sentence <- gsub('\\d+', '', sentence)
       
-        # Transforma a minÃºscula
+        # Transforma a minuscula
         sentence <- tolower(sentence)
-        # divide en palabras
         
+        # divide en palabras
+      
         word.list <- str_split(sentence, '\\s+')
+        
         # sometimes a list() is one level of hierarchy too much
         words <- unlist(word.list)
-       words <-  enc2utf8(words)
+        words <-  enc2utf8(words)
+        
         # compare our words to the dictionaries of positive & negative terms
         pos.matches <- match(words, pos.words)
         neg.matches <- match(words, neg.words)
@@ -143,7 +141,7 @@ shinyServer(function(input, output) {
     scores <- scoreSentiment(Dataset$text, posWords, negWords, .progress='text')
     write.csv(scores, file = paste(input$busqueda, '_scores.csv'), row.names = TRUE)
     
-    # EvaluaciÃ³n
+    # Evaluacion
     stat <- scores
     stat$created <- stack$created
     stat$created <- as.Date(stat$created)
@@ -154,7 +152,12 @@ shinyServer(function(input, output) {
     return(by.tweet)
   })
   
+  # Crea la tabla con los tweets
   
+  output$table <- renderTable({
+    head(dataInput()[, c("Tweet","User")], n = input$obs)
+  })
+  output$value <- renderPrint({ output$table })
   output$graphic2 <- renderPlot({
     data <- analysis()
     ggplot(data,aes(x = created, y = number, group = tweet, color = tweet)) +
