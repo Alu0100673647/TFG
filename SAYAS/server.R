@@ -11,26 +11,17 @@
 
 
 library("tm");
-library("RTextTools");
-library("SnowballC");
-library("e1071");
-library("randomForest");
-library("stringi");
 library("reader");
 library("shiny");
 library("plyr"); # proporciona herramientas para aplicar operaciones a los datos
 library("dplyr");
 library("stringr"); # facilita las operaciones con cadenas
 library("ggplot2"); # graficos
-library("RJSONIO");
-library("RCurl");
-library("bitops");
-library("rjson");
 library("leaflet");
 library("rsconnect");
 library("ggthemes");
 library(mailR)
-#library("RPushbullet");
+library("RPushbullet");
 # Leer fichero credenciales
 # cuando ejecutamos el PIN lo teniamos qu poner en consola para   q crear el ficher myoauth
 source('credenciales.R')
@@ -158,6 +149,9 @@ shinyServer(function(input, output) {
     head(dataInput()[, c("Tweet","User")], n = input$obs)
   })
   output$value <- renderPrint({ output$table })
+  
+  # Crear grafico de analisis
+  
   output$graphic2 <- renderPlot({
     data <- analysis()
     ggplot(data,aes(x = created, y = number, group = tweet, color = tweet)) +
@@ -168,35 +162,5 @@ shinyServer(function(input, output) {
      scale_colour_hc()
   }) 
   
-####################################################################
-################### Envio de notificaciones ########################
-####################################################################
-#  output$gmail <- renderText({input$gmail})
-#  
-# #   correo = "<cplb2009@gmail.com>";
-#    emisor = "Recipient 1 ";
-#   i = "<";
-#   d = ">";
-#   r = paste(i,input$gmail,d,sep = "",collapse = NULL);
-#    envio =  paste(emisor,r, sep = "", collapse = NULL);
-# #   
-# d = output$gmail
- #print(envio)
-  
-     # send.mail(from = "alu0100673647@ull.edu.es",
-     #            to = c(envio),
-     #                   subject = "alerta SAyAS3",
-     #                   body = "alerta sobre busqueda en la app https://alu0100673647.shinyapps.io/SAYAS/ ",
-     #                   smtp = list(host.name = "aspmx.l.google.com.", port = 25),
-     #                   authenticate = FALSE,
-     #                   send = TRUE)
-
-
-   
-    
-
- 
-
-
   })
 
